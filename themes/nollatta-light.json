@@ -62,7 +62,7 @@
 		"statusBar.debuggingForeground": "#642",
 		"statusBar.foreground": "#555",
 		"statusBar.noFolderBackground": "#f9f9f9",
-		"symbolIcon.classForeground":  "#850075",
+		"symbolIcon.classForeground": "#850075",
 		"symbolIcon.constructorForeground": "#00437a",
 		"symbolIcon.enumeratorForeground": "#000080",
 		"symbolIcon.enumeratorMemberForeground": "#000080",
@@ -87,7 +87,6 @@
 		"titleBar.inactiveBackground": "#f9f9f9",
 		"titleBar.inactiveForeground": "#bbb",
 		"widget.shadow": "#0003",
-
 		"terminal.ansiBlack": "#3b4252",
 		"terminal.ansiBlue": "#81a1c1",
 		"terminal.ansiCyan": "#88c0d0",
@@ -105,17 +104,19 @@
 		"terminal.ansiBrightWhite": "#eceff4",
 		"terminal.ansiBrightYellow": "#ebcb8b",
 		"terminal.background": "#232731",
-		"terminal.foreground": "#d8dee9",
+		"terminal.foreground": "#d8dee9"
 	},
 	"tokenColors": [
 		{
 			"scope": [
 				"comment",
 				"punctuation.definition.comment",
-				"string.comment"
+				"string.comment",
+				"string.quoted.docstring"
 			],
 			"settings": {
-				"foreground": "#6A737D"
+				"foreground": "#858585",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -321,16 +322,6 @@
 			"settings": {
 				"foreground": "#032F62",
 				"fontStyle": "underline"
-			}
-		},
-		{
-			"scope": [
-				"comment",
-				"punctuation.definition.comment",
-				"string.comment"
-			],
-			"settings": {
-				"foreground": "#6A737D"
 			}
 		},
 		{
