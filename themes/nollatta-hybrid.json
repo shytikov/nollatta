@@ -1,5 +1,5 @@
 {
-	"name": "Noll Åtta",
+	"name": "Nollåtta Hybrid",
 	"colors": {
 		"activityBar.background": "#ddd",
 		"activityBar.border": "#0003",
@@ -103,7 +103,7 @@
 		"terminal.ansiBrightRed": "#bf616a",
 		"terminal.ansiBrightWhite": "#eceff4",
 		"terminal.ansiBrightYellow": "#ebcb8b",
-		"terminal.background": "#232731",
+		"terminal.background": "#2e3440",
 		"terminal.foreground": "#d8dee9"
 	},
 	"tokenColors": [
