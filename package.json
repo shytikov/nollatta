@@ -2,7 +2,7 @@
     "name": "nollatta",
     "displayName": "Noll Åtta",
     "description": "Noll Åtta Hybrid Theme",
-    "version": "0.0.5",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.67.0"
     },
