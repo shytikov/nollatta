@@ -1,6 +1,6 @@
 # Nollåtta
 
-![Nollåtta Logo](https://github.com/shytikov/nollatta/blob/main/media/logo.png?raw=true)
+[![GitHub package version](https://img.shields.io/github/package-json/v/shytikov/nollatta.svg)](./package.json) [![last-commit](https://img.shields.io/github/last-commit/shytikov/nollatta.svg)](./package.json) [![license](https://img.shields.io/github/license/shytikov/nollatta.svg)](./LICENSE) [![downloads](https://img.shields.io/visual-studio-marketplace/d/shytikov.nollatta.svg)](https://marketplace.visualstudio.com/items?itemName=shytikov.nollatta)
 
 ## Description
 
