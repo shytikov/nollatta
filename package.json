@@ -18,7 +18,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Nollåtta",
+                "label": "Nollåtta Hybrid",
                 "uiTheme": "vs",
                 "path": "./themes/nollatta-hybrid.json"
             }

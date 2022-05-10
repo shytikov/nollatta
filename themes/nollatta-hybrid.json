@@ -616,7 +616,7 @@
 			"name": "Extra: Diff Header",
 			"scope": "meta.diff.header.git",
 			"settings": {
-				"foreground": "#000080",
+				"foreground": "#000080"
 			}
 		},
 		{
