@@ -10,8 +10,15 @@
     "description": "Nollåtta Hybrid Theme based on practical combination Light Delight and Nord Deep",
     "version": "1.0.0",
     "engines": {
-        "vscode": "^1.60.0"
+        "vscode": "^1.24.0"
     },
+    "keywords": [
+        "theme",
+        "light",
+        "subtle",
+        "Light Delight",
+        "Nord Deep"
+      ],
     "categories": [
         "Themes"
     ],
