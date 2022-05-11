@@ -10,7 +10,7 @@ Syntax highlighting and workbench styles (with very minor changes) were taken fr
 
 ## Name
 
-`Nollåtta` means `08` (zero-eight) in Swedish. This is rather not nice nickname for people from Stockholm, based on telephone code of the region. Nollåttas are very fancy and practical in the same time, and combine these qualities in somewhat ridiculous manner. Like this color theme 🤡
+`Nollåtta` means `08` (zero-eight) in Swedish. This is rather ironic nickname for people from Stockholm, based on telephone code of the region. "Nollåttas" are very fancy and practical in the same time, also they combine these traits in somewhat ridiculous manner. Like this color theme 🤡
 
 ## Preview
 
