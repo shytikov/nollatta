@@ -8,7 +8,7 @@
 		"badge.background": "#aaa",
 		"contrastBorder": "#0003",
 		"editor.background": "#fff",
-		"editor.foreground": "#222222",
+		"editor.foreground": "#222",
 		"editor.inactiveSelectionBackground": "#0003",
 		"editor.selectionBackground": "#e5e5e5",
 		"editor.selectionHighlightBackground": "#ea13",
@@ -34,12 +34,12 @@
 		"editorWidget.background": "#eee",
 		"editorWidget.border": "#0003",
 		"input.placeholderForeground": "#aaa",
-		"list.activeSelectionBackground": "#dddddd",
+		"list.activeSelectionBackground": "#ddd",
 		"list.activeSelectionForeground": "#222",
-		"list.focusBackground": "#dddddd",
+		"list.focusBackground": "#ddd",
 		"list.highlightForeground": "#005faf",
 		"list.hoverBackground": "#0001",
-		"list.inactiveSelectionBackground": "#dddddd",
+		"list.inactiveSelectionBackground": "#ddd",
 		"list.inactiveSelectionForeground": "#222",
 		"list.invalidItemForeground": "#b89500",
 		"notificationsErrorIcon.foreground": "#ff0000",
@@ -182,7 +182,7 @@
 				"keyword.operator.new"
 			],
 			"settings": {
-				"foreground": "#222222",
+				"foreground": "#222",
 				"fontStyle": "bold"
 			}
 		},
@@ -214,7 +214,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -346,7 +346,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -430,7 +430,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#222222"
+				"foreground": "#222"
 			}
 		},
 		{
