@@ -7,7 +7,7 @@
     },
     "publisher": "shytikov",
     "icon": "media/logo.png",
-    "description": "Nollåtta Hybrid Theme based on practical combination Light Delight and Nord Deep",
+    "description": "Nollåtta Hybrid Theme based on practical combination Light Delight for syntax and Nord Deep for terminal",
     "version": "1.0.4",
     "engines": {
         "vscode": "^1.24.0"
