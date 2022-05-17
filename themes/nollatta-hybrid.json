@@ -179,10 +179,11 @@
 				"keyword.operator.expression.typeof",
 				"keyword.operator.expression.instanceof",
 				"keyword.operator.logical.python",
-				"keyword.operator.new"
+				"keyword.operator.new",
+				"punctuation.definition"
 			],
 			"settings": {
-				"foreground": "#222",
+				"foreground": "#000",
 				"fontStyle": "bold"
 			}
 		},
@@ -193,8 +194,8 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#222",
-				"fontStyle":"bold"
+				"foreground": "#000",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -224,17 +225,18 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#00437a"
+				"foreground": "#000080"
 			}
 		},
 		{
 			"name": "Functions",
 			"scope": [
 				"meta.function-call",
-				"support.function"
+				"support.function",
+				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#00437a"
+				"foreground": "#000080"
 			}
 		},
 		{
@@ -295,7 +297,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#00437a"
+				"foreground": "#000080"
 			}
 		},
 		{
@@ -397,7 +399,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#00437a"
+				"foreground": "#000080"
 			}
 		},
 		{
@@ -476,7 +478,7 @@
 			"name": "JavaScript: String Template Literals Punctuation",
 			"scope": "source.js string.template punctuation.definition.template-expression",
 			"settings": {
-				"foreground": "#00437a"
+				"foreground": "#000080"
 			}
 		},
 		{
@@ -532,7 +534,7 @@
 			"name": "Markup: Link",
 			"scope": "meta.link",
 			"settings": {
-				"foreground": "#00437a"
+				"foreground": "#000080"
 			}
 		},
 		{
