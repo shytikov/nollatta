@@ -56,7 +56,7 @@
 		"sideBar.background": "#eee",
 		"sideBar.border": "#0003",
 		"sideBarTitle.foreground": "#555",
-		"statusBar.background": "#eee",
+		"statusBar.background": "#ddd",
 		"statusBar.border": "#0003",
 		"statusBar.debuggingBackground": "#ea1",
 		"statusBar.debuggingForeground": "#642",
