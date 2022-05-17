@@ -193,7 +193,8 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#222",
+				"fontStyle":"bold"
 			}
 		},
 		{
@@ -229,8 +230,7 @@
 		{
 			"name": "Functions",
 			"scope": [
-				"entity.name.function",
-				"meta.function-call.generic.python",
+				"meta.function-call",
 				"support.function"
 			],
 			"settings": {
@@ -325,7 +325,7 @@
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#777"
 			}
 		},
 		{
@@ -542,14 +542,14 @@
 				"markup.raw"
 			],
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#777"
 			}
 		},
 		{
 			"name": "Markup: Prompt",
 			"scope": "markup.prompt",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#777"
 			}
 		},
 		{
