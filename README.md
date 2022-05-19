@@ -20,4 +20,4 @@ Font used: [Iosevka Nerd Font](https://www.programmingfonts.org/#iosevka) (13pt,
 
 ## Differences
 
-Not much. Comparing to `Light Delight` `Nollåtta` adds keywords in monochrome and bold as well as slightly darker statusbar.
+Not that much. Comparing to `Light Delight` `Nollåtta` adds keywords in monochrome and bold, uses more purple than blue, also adds _italic_ for types.
