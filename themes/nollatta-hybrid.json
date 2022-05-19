@@ -166,7 +166,7 @@
 				"punctuation.separator.pointer-access.cpp"
 			],
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -179,8 +179,7 @@
 				"keyword.operator.expression.typeof",
 				"keyword.operator.expression.instanceof",
 				"keyword.operator.logical.python",
-				"keyword.operator.new",
-				"punctuation.definition"
+				"keyword.operator.new"
 			],
 			"settings": {
 				"foreground": "#000",
@@ -194,8 +193,8 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#000",
-				"fontStyle": "bold"
+				"foreground": "#850075",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -274,7 +273,7 @@
 			],
 			"settings": {
 				"foreground": "#850075",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -348,7 +347,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#222"
+				"foreground": "#000"
 			}
 		},
 		{
