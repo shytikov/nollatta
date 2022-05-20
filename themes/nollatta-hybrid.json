@@ -182,7 +182,6 @@
 				"keyword.operator.new"
 			],
 			"settings": {
-				"foreground": "#000",
 				"fontStyle": "bold"
 			}
 		},
@@ -216,7 +215,8 @@
 				"support.type"
 			],
 			"settings": {
-				"fontStyle": "italic"
+				"foreground": "#222",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -294,7 +294,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#006b1e"
 			}
 		},
 		{
@@ -325,7 +325,16 @@
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#777"
+				"foreground": "#222",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Strings: Placeholders",
+			"scope": "constant.other.placeholder",
+			"settings": {
+				"foreground": "#222",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -346,7 +355,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#222"
 			}
 		},
 		{
