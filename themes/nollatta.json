@@ -166,7 +166,8 @@
 				"punctuation.separator.pointer-access.cpp"
 			],
 			"settings": {
-				"foreground": "#05a"
+				"foreground": "#05a",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -434,10 +435,12 @@
 			"name": "CSS: Property Names",
 			"scope": [
 				"meta.property-name",
-				"support.type.property-name"
+				"support.type.property-name",
+				"punctuation.support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#222"
+				"foreground": "#222",
+				"fontStyle": "bold"
 			}
 		},
 		{
