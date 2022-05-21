@@ -20,7 +20,7 @@
 		"editorGroupHeader.tabsBorder": "#0003",
 		"editorGutter.addedBackground": "#007c23",
 		"editorGutter.background": "#f9f9f9",
-		"editorGutter.deletedBackground": "#a50000",
+		"editorGutter.deletedBackground": "#800",
 		"editorGutter.modifiedBackground": "#005faf",
 		"editorIndentGuide.activeBackground": "#0006",
 		"editorIndentGuide.background": "#0002",
@@ -62,21 +62,21 @@
 		"statusBar.debuggingForeground": "#642",
 		"statusBar.foreground": "#555",
 		"statusBar.noFolderBackground": "#f9f9f9",
-		"symbolIcon.classForeground": "#850075",
+		"symbolIcon.classForeground": "#708",
 		"symbolIcon.constructorForeground": "#00437a",
-		"symbolIcon.enumeratorForeground": "#000080",
-		"symbolIcon.enumeratorMemberForeground": "#000080",
-		"symbolIcon.fieldForeground": "#000080",
+		"symbolIcon.enumeratorForeground": "#05a",
+		"symbolIcon.enumeratorMemberForeground": "#05a",
+		"symbolIcon.fieldForeground": "#05a",
 		"symbolIcon.functionForeground": "#00437a",
-		"symbolIcon.interfaceForeground": "#850075",
+		"symbolIcon.interfaceForeground": "#708",
 		"symbolIcon.keywordForeground": "#222",
 		"symbolIcon.methodForeground": "#00437a",
-		"symbolIcon.moduleForeground": "#850075",
-		"symbolIcon.namespaceForeground": "#850075",
-		"symbolIcon.referenceForeground": "#000080",
+		"symbolIcon.moduleForeground": "#708",
+		"symbolIcon.namespaceForeground": "#708",
+		"symbolIcon.referenceForeground": "#05a",
 		"symbolIcon.snippetForeground": "#222",
 		"symbolIcon.unitForeground": "#222",
-		"symbolIcon.variableForeground": "#000080",
+		"symbolIcon.variableForeground": "#05a",
 		"tab.activeBackground": "#fff",
 		"tab.activeForeground": "#333",
 		"tab.border": "#0003",
@@ -166,7 +166,7 @@
 				"punctuation.separator.pointer-access.cpp"
 			],
 			"settings": {
-				"foreground": "#222"
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -215,7 +215,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#222",
+				"foreground": "#05a",
 				"fontStyle": ""
 			}
 		},
@@ -227,7 +227,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#085"
 			}
 		},
 		{
@@ -246,7 +246,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -257,7 +257,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#850075"
+				"foreground": "#708"
 			}
 		},
 		{
@@ -271,14 +271,14 @@
 				"entity.name.class"
 			],
 			"settings": {
-				"foreground": "#850075"
+				"foreground": "#05a"
 			}
 		},
 		{
 			"name": "Exceptions",
 			"scope": "entity.name.exception",
 			"settings": {
-				"foreground": "#a50000"
+				"foreground": "#800"
 			}
 		},
 		{
@@ -294,7 +294,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#006b1e"
+				"foreground": "#085"
 			}
 		},
 		{
@@ -305,7 +305,7 @@
 				"keyword.other.unit.hexadecimal"
 			],
 			"settings": {
-				"foreground": "#006b1e"
+				"foreground": "#085"
 			}
 		},
 		{
@@ -318,23 +318,21 @@
 				"punctuation.definition.string.template.end"
 			],
 			"settings": {
-				"foreground": "#a50000"
+				"foreground": "#800"
 			}
 		},
 		{
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#222",
-				"fontStyle": "bold"
+				"foreground": "#05a"
 			}
 		},
 		{
 			"name": "Strings: Placeholders",
 			"scope": "constant.other.placeholder",
 			"settings": {
-				"foreground": "#222",
-				"fontStyle": "bold"
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -355,7 +353,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#222"
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -377,7 +375,7 @@
 				"meta.tag.sgml punctuation.definition.tag.html"
 			],
 			"settings": {
-				"foreground": "#006b1e"
+				"foreground": "#085"
 			}
 		},
 		{
@@ -396,7 +394,7 @@
 			"name": "HTML: Tag Names",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#006b1e"
+				"foreground": "#085"
 			}
 		},
 		{
@@ -406,7 +404,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -416,7 +414,7 @@
 				"punctuation.definition.entity"
 			],
 			"settings": {
-				"foreground": "#a50000"
+				"foreground": "#800"
 			}
 		},
 		{
@@ -429,7 +427,7 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -450,7 +448,7 @@
 				"support.constant.property-value"
 			],
 			"settings": {
-				"foreground": "#a50000"
+				"foreground": "#800"
 			}
 		},
 		{
@@ -464,7 +462,7 @@
 				"keyword.other.unit.percentage.css"
 			],
 			"settings": {
-				"foreground": "#006b1e"
+				"foreground": "#085"
 			}
 		},
 		{
@@ -478,14 +476,14 @@
 			"name": "CSS: Hash Value",
 			"scope": "constant.other.color.rgb-value.hex",
 			"settings": {
-				"foreground": "#006b1e"
+				"foreground": "#085"
 			}
 		},
 		{
 			"name": "JavaScript: String Template Literals Punctuation",
 			"scope": "source.js string.template punctuation.definition.template-expression",
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -495,7 +493,7 @@
 				"punctuation.definition.directive.cpp"
 			],
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -541,7 +539,7 @@
 			"name": "Markup: Link",
 			"scope": "meta.link",
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -600,7 +598,7 @@
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -610,7 +608,7 @@
 				"markup.italic"
 			],
 			"settings": {
-				"foreground": "#006b1e"
+				"foreground": "#085"
 			}
 		},
 		{
@@ -625,7 +623,7 @@
 			"name": "Extra: Diff Header",
 			"scope": "meta.diff.header.git",
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -673,7 +671,7 @@
 				"markup.inserted.diff"
 			],
 			"settings": {
-				"foreground": "#006b1e"
+				"foreground": "#085"
 			}
 		},
 		{
@@ -683,7 +681,7 @@
 				"punctuation.definition.inline.tag.jsdoc"
 			],
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#05a"
 			}
 		}
 	]
