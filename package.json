@@ -7,7 +7,7 @@
     },
     "publisher": "shytikov",
     "icon": "media/logo.png",
-    "description": "Nollåtta Hybrid Theme based on practical combination Light Delight for syntax and Nord Deep for terminal",
+    "description": "Nollåtta - a hybrid theme based on practical combination of light theme for workbench and dark theme for terminal",
     "version": "1.0.9",
     "engines": {
         "vscode": "^1.24.0"
@@ -25,9 +25,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Nollåtta Hybrid",
+                "label": "Nollåtta",
                 "uiTheme": "vs",
-                "path": "./themes/nollatta-hybrid.json"
+                "path": "./themes/nollatta.json"
             }
         ]
     }

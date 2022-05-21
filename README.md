@@ -4,9 +4,9 @@
 
 ## Description
 
-`Nollåtta` is a hybrid theme combined from excellent [Light Delight](https://github.com/DNonov/lightDelight) and [Nord Deep](https://github.com/marlosirapuan/vscode-theme-nord-deep).
+`Nollåtta` is a hybrid theme combined from excellent [Light Delight](https://github.com/DNonov/lightDelight) and [Nord Deep](https://github.com/marlosirapuan/vscode-theme-nord-deep). Some inspiration on syntax highlighting was taken from [GitHub Light Monochrome](https://github.com/huytd/vscode-github-light-monochrome) and the colors are mostly from [Android Code Search](https://cs.android.com/).
 
-Syntax highlighting and workbench styles (with very minor changes) were taken from `Light Delight` while terminal colors are direcrtly copied from `Nord Deep`. This move is rather induced by many console applications obusing colors usage in pursuit for more usability. And resulting in quite an opposite experience if terminal uses light background. I have tried fixing these issues on per application basis, and predictably failed. So I opted for dark terminal all the way. 
+The theme combiles light syntax highlighting and workbench styles with dark terminal colors. This move is rather induced by many console applications obusing colors usage in pursuit for more usability. And resulting in quite an opposite experience if terminal uses light background. I have tried fixing these issues on per application basis, and predictably failed. So I opted for dark terminal all the way. 
 
 ## Name
 
@@ -18,6 +18,9 @@ Syntax highlighting and workbench styles (with very minor changes) were taken fr
 
 Font used: [Iosevka Nerd Font](https://www.programmingfonts.org/#iosevka) (13pt, Medium).
 
-## Differences
+## Borrowed (stolen)
 
-Not that much. Comparing to `Light Delight` `Nollåtta` adds keywords in monochrome and bold, uses more purple than blue, also adds _italic_ for types.
+* Workbench colors are directly taken from `Light Delight`;
+* Terminal colors are directly taken from `Nord Deep`;
+* Keywords in monochrome and bold came from `GitHub Light Monochrome`;
+* Majority of syntax highlighting colors are from `Android Code Search`;
