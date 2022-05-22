@@ -173,13 +173,15 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword",
 				"keyword.operator.expression.in",
+				"keyword.operator.expression.instanceof",
 				"keyword.operator.expression.of",
 				"keyword.operator.expression.typeof",
-				"keyword.operator.expression.instanceof",
 				"keyword.operator.logical.python",
-				"keyword.operator.new"
+				"keyword.operator.new",
+				"keyword",
+				"storage.type",
+				"support.type"
 			],
 			"settings": {
 				"foreground": "#222",
@@ -211,13 +213,20 @@
 				"storage.type.string.go",
 				"storage.type.token.java",
 				"storage.type.uintptr.go",
-				"storage.type.variable.cs",
-				"storage.type",
-				"support.type"
+				"storage.type.variable.cs"
 			],
 			"settings": {
 				"foreground": "#05a",
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Modifiers",
+			"scope": [
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -264,12 +273,12 @@
 		{
 			"name": "Classes",
 			"scope": [
+				"entity.name.class",
+				"entity.name.type",
+				"entity.other.inherited-class",
 				"meta.return-type",
 				"support.class",
-				"entity.other.inherited-class",
-				"support.type",
-				"entity.name.type",
-				"entity.name.class"
+				"support.type"
 			],
 			"settings": {
 				"foreground": "#05a"
@@ -352,9 +361,14 @@
 		},
 		{
 			"name": "Punctuation",
-			"scope": "punctuation",
+			"scope": [
+				"punctuation",
+				"keyword.operator.comparison",
+				"keyword.operator.assignment",
+				"keyword.operator.arithmetic"
+			],
 			"settings": {
-				"foreground": "#05a"
+				"foreground": "#858585"
 			}
 		},
 		{
