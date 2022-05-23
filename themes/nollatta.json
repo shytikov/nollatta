@@ -259,7 +259,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#05a"
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -343,7 +343,10 @@
 		},
 		{
 			"name": "Strings: Placeholders",
-			"scope": "constant.other.placeholder",
+			"scope": [
+				"constant.other.placeholder",
+				"meta.embedded.line"
+			],
 			"settings": {
 				"foreground": "#05a"
 			}
@@ -448,8 +451,20 @@
 				"punctuation.support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#222",
+				"foreground": "#333",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Property Values",
+			"scope": [
+				"meta.property-value",
+				"meta.property-value constant.other",
+				"support.constant.property-value"
+			],
+			"settings": {
+				"foreground": "#800",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -468,28 +483,20 @@
 			}
 		},
 		{
-			"name": "CSS: Property Values",
-			"scope": [
-				"meta.property-value",
-				"meta.property-value constant.other",
-				"support.constant.property-value"
-			],
-			"settings": {
-				"foreground": "#800"
-			}
-		},
-		{
 			"name": "CSS: Property Units",
 			"scope": [
 				"keyword.other.unit.rem.css",
 				"keyword.other.unit.vh.css",
+				"keyword.other.unit.vw.css",
 				"keyword.other.unit.px.css",
 				"keyword.other.unit.em.css",
 				"keyword.other.unit.deg.css",
-				"keyword.other.unit.percentage.css"
+				"keyword.other.unit.percentage.css",
+				"punctuation.definition.constant"
 			],
 			"settings": {
-				"foreground": "#085"
+				"foreground": "#085",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -647,8 +654,7 @@
 			"name": "Markup Inline",
 			"scope": "markup.inline.raw",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#AB6526"
+				"foreground": "#800"
 			}
 		},
 		{
