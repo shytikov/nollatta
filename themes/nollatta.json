@@ -108,28 +108,22 @@
 	},
 	"tokenColors": [
 		{
-			"settings": {
-				"foreground": "#333333ff",
-				"background": "#f5f5f5ff"
-			}
-		},
-		{
 			"name": "Comments",
 			"scope": [
 				"comment",
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#858585"
+				"foreground": "#858585",
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "Comments: Preprocessor",
 			"scope": "comment.block.preprocessor",
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#858585"
+				"foreground": "#858585",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -139,8 +133,8 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#858585"
+				"foreground": "#858585",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -228,8 +222,7 @@
 				"meta.function.decorator"
 			],
 			"settings": {
-				"foreground": "#000",
-				"fontStyle": "italic"
+				"foreground": "#05a"
 			}
 		},
 		{
