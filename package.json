@@ -25,6 +25,11 @@
     "contributes": {
         "themes": [
             {
+                "label": "Nollåtta",
+                "uiTheme": "vs",
+                "path": "./themes/nollatta.json"
+            },
+            {
                 "label": "Nollåtta Norra",
                 "uiTheme": "vs-dark",
                 "path": "./themes/nollatta-norra.json"
