@@ -7,7 +7,7 @@
     },
     "publisher": "shytikov",
     "icon": "media/logo.png",
-    "description": "Nollåtta - a hybrid theme based on practical combination of light theme for workbench and dark theme for terminal",
+    "description": "Nollåtta - a hybrid theme based on practical combination Light Delight / Nord Deep and colors from Android Code Search (with lots of ❤ added on top)",
     "version": "1.1.5",
     "engines": {
         "vscode": "^1.24.0"
@@ -25,9 +25,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Nollåtta",
-                "uiTheme": "vs",
-                "path": "./themes/nollatta.json"
+                "label": "Nollåtta Norra",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nollatta-norra.json"
             }
         ]
     }
