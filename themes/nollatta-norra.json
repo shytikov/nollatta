@@ -22,7 +22,7 @@
 		"editor.findMatchBackground": "#88c0d066",
 		"editor.findMatchHighlightBackground": "#88c0d033",
 		"editor.findRangeHighlightBackground": "#88c0d033",
-		"editor.foreground": "#d8dee9",
+		"editor.foreground": "#78849b",
 		"editor.hoverHighlightBackground": "#3b4252",
 		"editor.inactiveSelectionBackground": "#434c5ecc",
 		"editor.lineHighlightBackground": "#3b4252",
@@ -214,28 +214,22 @@
 	},
 	"tokenColors": [
 		{
-			"settings": {
-				"foreground": "#333333ff",
-				"background": "#f5f5f5ff"
-			}
-		},
-		{
 			"name": "Comments",
 			"scope": [
 				"comment",
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#858585"
+				"foreground": "#4c566a",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Comments: Preprocessor",
 			"scope": "comment.block.preprocessor",
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#858585"
+				"foreground": "#4c566a",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -245,8 +239,8 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#858585"
+				"foreground": "#4c566a",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -291,8 +285,8 @@
 				"storage.type"
 			],
 			"settings": {
-				"foreground": "#d8dee9",
-				"fontStyle": "bold"
+				"foreground": "#eceff4",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -323,7 +317,7 @@
 				"storage.type.variable.cs"
 			],
 			"settings": {
-				"foreground": "#81a1c1",
+				"foreground": "#eceff4",
 				"fontStyle": ""
 			}
 		},
@@ -334,8 +328,7 @@
 				"meta.function.decorator"
 			],
 			"settings": {
-				"foreground": "#d8dee9",
-				"fontStyle": "italic"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -376,7 +369,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#b48ead"
+				"foreground": "#eceff4"
 			}
 		},
 		{
@@ -389,7 +382,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#eceff4dd"
 			}
 		},
 		{
@@ -437,14 +430,14 @@
 				"punctuation.definition.string.template.end"
 			],
 			"settings": {
-				"foreground": "#bf616a"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#eceff4"
 			}
 		},
 		{
@@ -483,7 +476,7 @@
 				"meta.arrow"
 			],
 			"settings": {
-				"foreground": "#858585",
+				"foreground": "#81a1c1",
 				"fontStyle": ""
 			}
 		},
