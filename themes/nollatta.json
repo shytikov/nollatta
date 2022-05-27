@@ -276,7 +276,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#05a"
+				"foreground": "#708"
 			}
 		},
 		{
@@ -594,14 +594,18 @@
 				"punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#AA3731",
+				"foreground": "#800",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Markup: Strong",
-			"scope": "markup.bold",
+			"scope": [
+				"markup.bold",
+				"punctuation.definition.bold.markdown"
+			],
 			"settings": {
+				"foreground": "#085",
 				"fontStyle": "bold"
 			}
 		},
@@ -630,22 +634,25 @@
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#05a"
+				"foreground": "#222"
 			}
 		},
 		{
-			"name": "Markup Styling",
+			"name": "Markup Italic",
 			"scope": [
-				"markup.bold",
-				"markup.italic"
+				"markup.italic",
+				"punctuation.definition.italic"
 			],
 			"settings": {
-				"foreground": "#085"
+				"foreground": "#05A"
 			}
 		},
 		{
 			"name": "Markup Inline",
-			"scope": "markup.inline.raw",
+			"scope": [
+				"markup.inline.raw",
+				"punctuation.definition.raw.markdown"
+			],
 			"settings": {
 				"foreground": "#800"
 			}
