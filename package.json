@@ -27,7 +27,7 @@
             {
                 "label": "Nollåtta",
                 "uiTheme": "vs",
-                "path": "./themes/nollatta.json"
+                "path": "./themes/nollatta-color-theme.json"
             }
         ]
     }
