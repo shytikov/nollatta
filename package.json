@@ -16,8 +16,11 @@
         "theme",
         "light",
         "subtle",
+        "focused",
         "Light Delight",
-        "Nord Deep"
+        "Nord Deep",
+        "GitHub Liight Monochrome",
+        "Android Code Search"
     ],
     "categories": [
         "Themes"
