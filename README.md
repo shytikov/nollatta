@@ -21,18 +21,10 @@ The theme combiles light syntax highlighting and workbench styles with dark term
 
 ## Preview
 
-Sneak peek of workbench / terminal combination is following:
+Sneak peek of workbench / terminal colors combination:
 
 ![Nollåtta Preview](https://github.com/shytikov/nollatta/blob/main/media/preview.png?raw=true)
 
 Font used: [Iosevka Nerd Font](https://www.programmingfonts.org/#iosevka) (13pt, Medium).
 
-### Syntax previews:
-
-![C++](https://vscodethemes.com/e/shytikov.nollatta/nollatta.svg?language=cpp)
-
-![CSS](https://vscodethemes.com/e/shytikov.nollatta/nollatta.svg?language=css)
-
-![GO](https://vscodethemes.com/e/shytikov.nollatta/nollatta.svg?language=go)
-
-![HTML](https://vscodethemes.com/e/shytikov.nollatta/nollatta.svg?language=html)
+Check for more syntax previews on [VS Code Themes](https://vscodethemes.com/e/shytikov.nollatta/nollatta) website.
