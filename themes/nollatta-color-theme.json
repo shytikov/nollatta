@@ -113,16 +113,14 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#858585",
-				"fontStyle": "italic"
+				"foreground": "#858585"
 			}
 		},
 		{
 			"name": "Comments: Preprocessor",
 			"scope": "comment.block.preprocessor",
 			"settings": {
-				"foreground": "#858585",
-				"fontStyle": "italic"
+				"foreground": "#858585"
 			}
 		},
 		{
@@ -132,8 +130,7 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#858585",
-				"fontStyle": "italic"
+				"foreground": "#858585"
 			}
 		},
 		{
@@ -219,7 +216,7 @@
 				"meta.function.decorator"
 			],
 			"settings": {
-				"foreground": "#05a"
+				"fontStyle": "italic"
 			}
 		},
 		{
