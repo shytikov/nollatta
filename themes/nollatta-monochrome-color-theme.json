@@ -170,10 +170,8 @@
 				"keyword.operator.expression.of",
 				"keyword.operator.expression.typeof",
 				"keyword.operator.logical.python",
-				"keyword.operator.new",
 				"keyword",
 				"support.type",
-				"storage.type.function",
 				"storage.type"
 			],
 			"settings": {
@@ -216,8 +214,10 @@
 		{
 			"name": "Misc",
 			"scope": [
+				"keyword.operator.new",
+				"meta.function.decorator",
 				"storage.modifier",
-				"meta.function.decorator"
+				"storage.type.function"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -241,7 +241,8 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#222"
+				"foreground": "#222",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -324,7 +325,7 @@
 				"punctuation.definition.string.template.end"
 			],
 			"settings": {
-				"foreground": "#858585"
+				"foreground": "#777"
 			}
 		},
 		{
@@ -350,14 +351,16 @@
 			"name": "Strings: Regular Expressions",
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#222",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Strings: Symbols",
 			"scope": "constant.other.symbol",
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#222",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -529,20 +532,21 @@
 			"name": "Markup: Changed",
 			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000"
 			}
 		},
 		{
 			"name": "Markup: Deletion",
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000"
 			}
 		},
 		{
 			"name": "Markup: Emphasis",
 			"scope": "markup.italic",
 			"settings": {
+				"foreground": "#222",
 				"fontStyle": "italic"
 			}
 		},
@@ -557,7 +561,7 @@
 			"name": "Markup: Insertion",
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -591,7 +595,7 @@
 				"punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#800",
+				"foreground": "#000",
 				"fontStyle": "bold"
 			}
 		},
@@ -602,7 +606,7 @@
 				"punctuation.definition.bold.markdown"
 			],
 			"settings": {
-				"foreground": "#085",
+				"foreground": "#222",
 				"fontStyle": "bold"
 			}
 		},
@@ -641,7 +645,7 @@
 				"punctuation.definition.italic"
 			],
 			"settings": {
-				"foreground": "#05A"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -651,7 +655,7 @@
 				"punctuation.definition.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#800"
+				"foreground": "#777"
 			}
 		},
 		{
