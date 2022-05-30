@@ -17,7 +17,6 @@
         "light",
         "subtle",
         "focused",
-        "monochrome",
         "Light Delight",
         "Nord Deep",
         "GitHub Liight Monochrome",
@@ -29,14 +28,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Nollåtta Focused",
+                "label": "Nollåtta",
                 "uiTheme": "vs",
-                "path": "./themes/nollatta-focused-color-theme.json"
-            },
-            {
-                "label": "Nollåtta Monochrome",
-                "uiTheme": "vs",
-                "path": "./themes/nollatta-monochrome-color-theme.json"
+                "path": "./themes/nollatta-color-theme.json"
             }
         ]
     }
