@@ -28,9 +28,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Nollåtta",
+                "label": "Nollåtta Focused",
                 "uiTheme": "vs",
-                "path": "./themes/nollatta-color-theme.json"
+                "path": "./themes/nollatta-focused-color-theme.json"
+            },
+            {
+                "label": "Nollåtta Monochrome",
+                "uiTheme": "vs",
+                "path": "./themes/nollatta-monochrome-color-theme.json"
             }
         ]
     }
