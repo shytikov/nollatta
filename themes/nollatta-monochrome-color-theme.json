@@ -324,15 +324,15 @@
 				"punctuation.definition.string.template.end"
 			],
 			"settings": {
-				"foreground": "#858585",
-				"fontStyle": "italic"
+				"foreground": "#858585"
 			}
 		},
 		{
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#05a"
+				"foreground": "#222",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -342,21 +342,22 @@
 				"meta.embedded.line"
 			],
 			"settings": {
-				"foreground": "#05a"
+				"foreground": "#222",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Strings: Regular Expressions",
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#000"
 			}
 		},
 		{
 			"name": "Strings: Symbols",
 			"scope": "constant.other.symbol",
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -412,7 +413,7 @@
 			"name": "HTML: Tag Names",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#085"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -422,8 +423,8 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#05a",
-				"fontStyle": ""
+				"foreground": "#222",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -433,7 +434,7 @@
 				"punctuation.definition.entity"
 			],
 			"settings": {
-				"foreground": "#800"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -488,7 +489,7 @@
 				"punctuation.definition.constant"
 			],
 			"settings": {
-				"foreground": "#085",
+				"foreground": "#000",
 				"fontStyle": ""
 			}
 		},
@@ -503,14 +504,14 @@
 			"name": "CSS: Hash Value",
 			"scope": "constant.other.color.rgb-value.hex",
 			"settings": {
-				"foreground": "#085"
+				"foreground": "#000"
 			}
 		},
 		{
 			"name": "JavaScript: String Template Literals Punctuation",
 			"scope": "source.js string.template punctuation.definition.template-expression",
 			"settings": {
-				"foreground": "#05a"
+				"foreground": "#000"
 			}
 		},
 		{
