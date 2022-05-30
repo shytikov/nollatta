@@ -306,7 +306,8 @@
 				"keyword.other.unit.exponent"
 			],
 			"settings": {
-				"foreground": "#085"
+				"foreground": "#085",
+				"fontStyle": ""
 			}
 		},
 		{

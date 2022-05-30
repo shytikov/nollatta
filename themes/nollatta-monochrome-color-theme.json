@@ -215,6 +215,7 @@
 			"name": "Misc",
 			"scope": [
 				"keyword.operator.new",
+				"keyword.function",
 				"meta.function.decorator",
 				"storage.modifier",
 				"storage.type.function"
@@ -312,7 +313,8 @@
 				"keyword.other.unit.exponent"
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#000",
+				"fontStyle": ""
 			}
 		},
 		{
