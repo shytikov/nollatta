@@ -232,6 +232,7 @@
 				"entity.other.attribute-name",
 				"entity.other.attribute-name.html",
 				"support.type.property-name",
+				"punctuation.support.type.property-name",
 				"entity.name.tag.table",
 				"meta.structure.dictionary.json string.quoted.double.json"
 			],
@@ -343,7 +344,8 @@
 			"name": "Markdown titles",
 			"scope": [
 				"markup.heading",
-				"entity.name.section"
+				"entity.name.section",
+				"punctuation.definition.heading.markdown"
 			],
 			"settings": {
 				"fontStyle": "bold",
