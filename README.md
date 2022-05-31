@@ -10,7 +10,7 @@ The theme combiles light syntax highlighting and workbench styles with dark term
 
 ## Name
 
-`Nollåtta` means `08` (zero-eight) in Swedish. This is rather ironic nickname for people from Stockholm, based on telephone code of the region. "Nollåttas" are very fancy and practical in the same time, also they combine these traits in somewhat ridiculous manner. Like this color theme 🤡
+`Nollåtta` (pronounced as _"noll-otta"_) means `08` (zero-eight) in Swedish. This is rather ironic nickname for people from Stockholm, based on telephone code of the region. "Nollåttas" are very fancy and practical in the same time, also they combine these traits in somewhat ridiculous manner. Like this color theme 🤡
 
 ## Borrowed (stolen)
 
@@ -18,6 +18,7 @@ The theme combiles light syntax highlighting and workbench styles with dark term
 * Terminal colors are directly taken from `Nord Deep`;
 * Keywords in monochrome and bold came from `GitHub Light Monochrome`;
 * Majority of syntax highlighting colors are from `Android Code Search`;
+* Monochrome variant `Blanche` is very much `Verdandi` color theme;
 
 ## Preview
 

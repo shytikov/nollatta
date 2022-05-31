@@ -15,6 +15,7 @@
     "keywords": [
         "theme",
         "light",
+        "monochrome",
         "subtle",
         "focused",
         "Light Delight",
@@ -31,6 +32,11 @@
                 "label": "Nollåtta",
                 "uiTheme": "vs",
                 "path": "./themes/nollatta-color-theme.json"
+            },
+            {
+                "label": "Nollåtta Blanche",
+                "uiTheme": "vs",
+                "path": "./themes/nollatta-blanche-color-theme.json"
             }
         ]
     }
