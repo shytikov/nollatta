@@ -110,9 +110,9 @@
 		{
 			"name": "Variable and parameter name",
 			"scope": [
-				"variable",
 				"meta.definition.variable.name",
-				"support.variable"
+				"support.variable",
+				"variable"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -155,19 +155,25 @@
 		{
 			"name": "Punctuation",
 			"scope": [
-				"punctuation",
-				"delimiter",
-				"bracket",
 				"brace",
-				"paren",
+				"bracket",
 				"delimiter.tag",
-				"punctuation.tag",
-				"tag.html",
-				"tag.xml",
+				"delimiter",
+				"keyword.operator.arithmetic",
+				"keyword.operator.assignment",
+				"keyword.operator.comparison",
+				"meta.arrow",
+				"meta.brace.round",
+				"meta.brace.square",
+				"meta.brace",
 				"meta.property-value punctuation.separator.key-value",
+				"paren",
 				"punctuation.definition.metadata.md",
+				"punctuation.tag",
+				"punctuation",
 				"string.link.md",
-				"meta.brace"
+				"tag.html",
+				"tag.xml"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -192,12 +198,16 @@
 		{
 			"name": "String",
 			"scope": [
-				"string",
+				"meta.preprocessor string",
 				"meta.property-value.string",
-				"support.constant.property-value.string",
-				"meta.structure.dictionary.value.json string.quoted.double.json",
 				"meta.structure.dictionary.json string.quoted.double.json",
-				"meta.preprocessor string"
+				"meta.structure.dictionary.value.json string.quoted.double.json",
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end",
+				"punctuation.definition.string.template.begin",
+				"punctuation.definition.string.template.end",
+				"string",
+				"support.constant.property-value.string"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -207,12 +217,12 @@
 		{
 			"name": "Primitive Literals",
 			"scope": [
+				"constant.language",
 				"constant.numeric",
-				"meta.property-value.numeric",
-				"support.constant.property-value.numeric",
 				"meta.property-value.color",
+				"meta.property-value.numeric",
 				"support.constant.property-value.color",
-				"constant.language"
+				"support.constant.property-value.numeric"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -224,17 +234,19 @@
 			"scope": [
 				"constant.character",
 				"constant.other",
-				"entity.name.function",
 				"entity.name.class",
-				"entity.other.inherited-class",
-				"entity.other.attribute-name",
-				"entity.name",
-				"entity.other.attribute-name",
-				"entity.other.attribute-name.html",
-				"support.type.property-name",
-				"punctuation.support.type.property-name",
+				"entity.name.function",
 				"entity.name.tag.table",
-				"meta.structure.dictionary.json string.quoted.double.json"
+				"entity.name",
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name",
+				"entity.other.attribute-name",
+				"entity.other.inherited-class",
+				"keyword.other.unit.exponent",
+				"keyword.other.unit.hexadecimal",
+				"meta.structure.dictionary.json string.quoted.double.json",
+				"punctuation.support.type.property-name",
+				"support.type.property-name"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -244,17 +256,17 @@
 		{
 			"name": "Keyword",
 			"scope": [
-				"keyword",
-				"meta.property-value.keyword",
-				"support.constant.property-value.keyword",
-				"meta.preprocessor.keyword",
-				"keyword.other.use",
 				"keyword.other.function.use",
 				"keyword.other.namespace",
 				"keyword.other.new",
 				"keyword.other.special-method",
 				"keyword.other.unit",
-				"keyword.other.use-as"
+				"keyword.other.use-as",
+				"keyword.other.use",
+				"keyword",
+				"meta.preprocessor.keyword",
+				"meta.property-value.keyword",
+				"support.constant.property-value.keyword"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -264,17 +276,17 @@
 		{
 			"name": "Storage",
 			"scope": [
-				"storage",
-				"storage.type",
-				"storage.type.ts",
-				"storage.type.var.ts",
-				"storage.type.js",
-				"storage.type.var.js",
-				"storage.type.const.ts",
-				"storage.type.let.ts",
-				"storage.type.let.js",
+				"entity.name.tag",
 				"storage.type.const.js",
-				"entity.name.tag"
+				"storage.type.const.ts",
+				"storage.type.js",
+				"storage.type.let.js",
+				"storage.type.let.ts",
+				"storage.type.ts",
+				"storage.type.var.js",
+				"storage.type.var.ts",
+				"storage.type",
+				"storage"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -369,10 +381,10 @@
 			"name": "Markdown link",
 			"scope": [
 				"markup.link",
-				"string.other.link.title",
-				"string.other.link.description",
+				"meta.image.inline",
 				"meta.link.inline",
-				"meta.image.inline"
+				"string.other.link.description",
+				"string.other.link.title"
 			],
 			"settings": {
 				"fontStyle": "",

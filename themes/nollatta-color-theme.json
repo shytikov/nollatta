@@ -144,7 +144,7 @@
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#600"
 			}
 		},
 		{
@@ -169,9 +169,9 @@
 				"keyword.operator.logical.python",
 				"keyword.operator.new",
 				"keyword",
-				"support.type",
 				"storage.type.function",
-				"storage.type"
+				"storage.type",
+				"support.type"
 			],
 			"settings": {
 				"foreground": "#222",
@@ -253,9 +253,9 @@
 		{
 			"name": "Functions",
 			"scope": [
+				"entity.name.function",
 				"meta.function-call",
-				"support.function",
-				"entity.name.function"
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#708"
@@ -300,10 +300,10 @@
 		{
 			"name": "Numbers, Characters",
 			"scope": [
-				"constant.numeric",
 				"constant.character",
+				"constant.numeric",
+				"keyword.other.unit.exponent",
 				"keyword.other.unit.hexadecimal",
-				"keyword.other.unit.exponent"
 			],
 			"settings": {
 				"foreground": "#085",
@@ -313,11 +313,11 @@
 		{
 			"name": "Strings",
 			"scope": [
-				"string",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
 				"punctuation.definition.string.template.begin",
-				"punctuation.definition.string.template.end"
+				"punctuation.definition.string.template.end",
+				"string"
 			],
 			"settings": {
 				"foreground": "#800"
@@ -357,13 +357,25 @@
 		{
 			"name": "Punctuation",
 			"scope": [
-				"punctuation",
-				"keyword.operator.comparison",
-				"keyword.operator.assignment",
+				"brace",
+				"bracket",
+				"delimiter.tag",
+				"delimiter",
 				"keyword.operator.arithmetic",
+				"keyword.operator.assignment",
+				"keyword.operator.comparison",
+				"meta.arrow",
 				"meta.brace.round",
 				"meta.brace.square",
-				"meta.arrow"
+				"meta.brace",
+				"meta.property-value punctuation.separator.key-value",
+				"paren",
+				"punctuation.definition.metadata.md",
+				"punctuation.tag",
+				"punctuation",
+				"string.link.md",
+				"tag.html",
+				"tag.xml"
 			],
 			"settings": {
 				"foreground": "#858585",
@@ -544,7 +556,7 @@
 			"name": "Markup: Error",
 			"scope": "markup.error",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#600"
 			}
 		},
 		{
@@ -604,7 +616,7 @@
 			"name": "Markup: Traceback",
 			"scope": "markup.traceback",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#600"
 			}
 		},
 		{
