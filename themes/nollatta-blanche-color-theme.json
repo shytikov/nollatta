@@ -149,7 +149,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -177,7 +177,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#727981"
+				"foreground": "#727272"
 			}
 		},
 		{
@@ -192,7 +192,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -211,7 +211,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#727981"
+				"foreground": "#727272"
 			}
 		},
 		{
@@ -226,7 +226,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -239,9 +239,8 @@
 				"entity.name.tag.table",
 				"entity.name",
 				"entity.other.attribute-name.html",
-				"entity.other.attribute-name",
-				"entity.other.attribute-name",
 				"entity.other.inherited-class",
+				"keyword.other.unit",
 				"keyword.other.unit.exponent",
 				"keyword.other.unit.hexadecimal",
 				"meta.structure.dictionary.json string.quoted.double.json",
@@ -250,7 +249,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -260,7 +259,6 @@
 				"keyword.other.namespace",
 				"keyword.other.new",
 				"keyword.other.special-method",
-				"keyword.other.unit",
 				"keyword.other.use-as",
 				"keyword.other.use",
 				"keyword",
@@ -270,13 +268,12 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		},
 		{
 			"name": "Storage",
 			"scope": [
-				"entity.name.tag",
 				"storage.type.const.js",
 				"storage.type.const.ts",
 				"storage.type.js",
@@ -290,7 +287,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -308,7 +305,7 @@
 			"scope": "meta.preprocessor",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -321,7 +318,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -349,7 +346,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -361,7 +358,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -374,7 +371,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#727981"
+				"foreground": "#727272"
 			}
 		},
 		{
@@ -388,7 +385,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -399,7 +396,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		},
 		{
@@ -424,18 +421,28 @@
 				"entity.other.attribute-name.class.css"
 			],
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#212529"
+				"fontStyle": "bold",
+				"foreground": "#222"
 			}
 		},
 		{
 			"name": "CSS Tag name",
 			"scope": [
-				"entity.name.tag.css"
+				"entity.name.tag.css",
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#212529"
+				"foreground": "#222"
+			}
+		},
+		{
+			"name": "CSS Pseudo Class",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#222"
 			}
 		},
 		{
@@ -445,7 +452,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#212529"
+				"foreground": "#222"
 			}
 		}
 	]

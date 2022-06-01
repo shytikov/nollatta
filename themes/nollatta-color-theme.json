@@ -171,7 +171,6 @@
 				"keyword",
 				"storage.type.function",
 				"storage.type",
-				"support.type"
 			],
 			"settings": {
 				"foreground": "#222",
@@ -480,6 +479,16 @@
 			"settings": {
 				"foreground": "#222",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "CSS: Pseudo Class",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#222"
 			}
 		},
 		{
