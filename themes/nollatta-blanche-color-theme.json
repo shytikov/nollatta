@@ -177,7 +177,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#727272"
+				"foreground": "#858585"
 			}
 		},
 		{
@@ -240,16 +240,22 @@
 				"entity.name",
 				"entity.other.attribute-name.html",
 				"entity.other.inherited-class",
-				"keyword.other.unit",
-				"keyword.other.unit.exponent",
-				"keyword.other.unit.hexadecimal",
-				"meta.structure.dictionary.json string.quoted.double.json",
-				"punctuation.support.type.property-name",
-				"support.type.property-name"
+				"meta.structure.dictionary.json string.quoted.double.json"
 			],
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#222"
+			}
+		},
+		{
+			"name": "User names",
+			"scope": [
+				"punctuation.support.type.property-name",
+				"support.type.property-name"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#333"
 			}
 		},
 		{
@@ -314,7 +320,10 @@
 				"support.type",
 				"support.class",
 				"support.function",
-				"support.constant"
+				"support.constant",
+				"keyword.other.unit",
+				"keyword.other.unit.exponent",
+				"keyword.other.unit.hexadecimal",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -325,15 +334,23 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
+				"fontStyle": "strikethrough",
 				"foreground": "#e24747"
 			}
 		},
 		{
-			"name": "Invalid deprecated",
-			"scope": [
-				"invalid.deprecated"
-			],
+			"name": "Invalid - Deprecated",
+			"scope": "invalid.deprecated",
 			"settings": {
+				"fontStyle": "strikethrough",
+				"foreground": "#e24747"
+			}
+		},
+		{
+			"name": "Invalid - Illegal",
+			"scope": "invalid.illegal",
+			"settings": {
+				"fontStyle": "strikethrough",
 				"foreground": "#e24747"
 			}
 		},
@@ -436,9 +453,10 @@
 			}
 		},
 		{
-			"name": "CSS Pseudo Class",
+			"name": "CSS Pseudo Class / Element",
 			"scope": [
-				"entity.other.attribute-name.pseudo-class"
+				"entity.other.attribute-name.pseudo-class",
+				"entity.other.attribute-name.pseudo-element"
 			],
 			"settings": {
 				"fontStyle": "italic",

@@ -135,16 +135,27 @@
 			}
 		},
 		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"fontStyle": "strikethrough",
+				"foreground": "#e24747"
+			}
+		},
+		{
 			"name": "Invalid - Deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
+				"fontStyle": "strikethrough",
+				"foreground": "#e24747"
 			}
 		},
 		{
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"foreground": "#600"
+				"fontStyle": "strikethrough",
+				"foreground": "#e24747"
 			}
 		},
 		{
@@ -155,8 +166,8 @@
 				"punctuation.separator.pointer-access.cpp"
 			],
 			"settings": {
-				"foreground": "#05a",
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#05a"
 			}
 		},
 		{
@@ -173,8 +184,8 @@
 				"storage.type",
 			],
 			"settings": {
-				"foreground": "#222",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#222"
 			}
 		},
 		{
@@ -205,15 +216,15 @@
 				"storage.type.variable.cs"
 			],
 			"settings": {
-				"foreground": "#05a",
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#05a"
 			}
 		},
 		{
 			"name": "Misc",
 			"scope": [
-				"storage.modifier",
-				"meta.function.decorator"
+				"meta.function.decorator",
+				"storage.modifier"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -300,9 +311,7 @@
 			"name": "Numbers, Characters",
 			"scope": [
 				"constant.character",
-				"constant.numeric",
-				"keyword.other.unit.exponent",
-				"keyword.other.unit.hexadecimal",
+				"constant.numeric"
 			],
 			"settings": {
 				"foreground": "#085",
@@ -363,6 +372,7 @@
 				"keyword.operator.arithmetic",
 				"keyword.operator.assignment",
 				"keyword.operator.comparison",
+				"keyword.operator.relational",
 				"meta.arrow",
 				"meta.brace.round",
 				"meta.brace.square",
@@ -377,8 +387,8 @@
 				"tag.xml"
 			],
 			"settings": {
-				"foreground": "#858585",
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#858585"
 			}
 		},
 		{
@@ -424,8 +434,8 @@
 		{
 			"name": "HTML: Attribute Names",
 			"scope": [
-				"meta.tag entity.other.attribute-name",
-				"entity.other.attribute-name.html"
+				"entity.other.attribute-name.html",
+				"meta.tag entity.other.attribute-name"
 			],
 			"settings": {
 				"foreground": "#05a",
@@ -450,8 +460,8 @@
 				"punctuation.support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#333",
-				"fontStyle": "italic"
+				"fontStyle": "italic",
+				"foreground": "#333"
 			}
 		},
 		{
@@ -462,8 +472,8 @@
 				"support.constant.property-value"
 			],
 			"settings": {
-				"foreground": "#800",
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#800"
 			}
 		},
 		{
@@ -477,14 +487,15 @@
 				"punctuation.definition.entity.css"
 			],
 			"settings": {
-				"foreground": "#222",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#222"
 			}
 		},
 		{
-			"name": "CSS: Pseudo Class",
+			"name": "CSS: Pseudo / Element",
 			"scope": [
-				"entity.other.attribute-name.pseudo-class"
+				"entity.other.attribute-name.pseudo-class",
+				"entity.other.attribute-name.pseudo-element"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -504,8 +515,8 @@
 				"punctuation.definition.constant"
 			],
 			"settings": {
-				"foreground": "#085",
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#085"
 			}
 		},
 		{
@@ -606,8 +617,8 @@
 				"punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#800",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#800"
 			}
 		},
 		{
@@ -617,8 +628,8 @@
 				"punctuation.definition.bold.markdown"
 			],
 			"settings": {
-				"foreground": "#085",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#085"
 			}
 		},
 		{
@@ -704,8 +715,8 @@
 		{
 			"name": "Extra: Diff Deleted",
 			"scope": [
-				"punctuation.definition.deleted",
-				"markup.deleted.diff"
+				"markup.deleted.diff",
+				"punctuation.definition.deleted"
 			],
 			"settings": {
 				"foreground": "#AA3731"
@@ -714,8 +725,8 @@
 		{
 			"name": "Extra: Diff Inserted",
 			"scope": [
-				"punctuation.definition.inserted",
-				"markup.inserted.diff"
+				"markup.inserted.diff",
+				"punctuation.definition.inserted"
 			],
 			"settings": {
 				"foreground": "#085"
