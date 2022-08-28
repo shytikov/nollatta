@@ -240,7 +240,8 @@
 				"entity.name",
 				"entity.other.attribute-name.html",
 				"entity.other.inherited-class",
-				"meta.structure.dictionary.json string.quoted.double.json"
+				"meta.structure.dictionary.json string.quoted.double.json",
+				"punctuation.decorator"
 			],
 			"settings": {
 				"fontStyle": "",

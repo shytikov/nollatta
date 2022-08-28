@@ -265,7 +265,8 @@
 			"scope": [
 				"entity.name.function",
 				"meta.function-call",
-				"support.function"
+				"punctuation.decorator",
+				"support.function",
 			],
 			"settings": {
 				"foreground": "#708"
@@ -397,8 +398,7 @@
 				"string source",
 				"text source"
 			],
-			"settings": {
-			}
+			"settings": {}
 		},
 		{
 			"name": "HTML: Doctype Declaration",
