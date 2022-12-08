@@ -166,8 +166,8 @@
 				"punctuation.separator.pointer-access.cpp"
 			],
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#05a"
+				"fontStyle": "bold",
+				"foreground": "#222"
 			}
 		},
 		{
@@ -180,6 +180,7 @@
 				"keyword.operator.logical.python",
 				"keyword.operator.new",
 				"keyword",
+				"storage.modifier",
 				"storage.type.function",
 				"storage.type",
 			],
@@ -223,8 +224,7 @@
 		{
 			"name": "Misc",
 			"scope": [
-				"meta.function.decorator",
-				"storage.modifier"
+				"meta.function.decorator"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -257,7 +257,27 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": "italic",
+				"foreground": "#222"
+			}
+		},
+		{
+			"name": "Object literal",
+			"scope": [
+				"meta.objectliteral"
+			],
+			"settings": {
+				"fontStyle": "italic",
+			}
+		},
+		{
+			"name": "Separator",
+			"scope": [
+				"punctuation.separator"
+			],
+			"settings": {
+				"fontStyle": "italic bold",
+				"foreground": "#222"
 			}
 		},
 		{
