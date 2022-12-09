@@ -30,20 +30,10 @@
 
 ## Preview
 
-Sneak peek of workbench / terminal colors combination:
+Sneak peek of syntax:
 
 ![Nollåtta Preview](https://github.com/shytikov/nollatta/blob/main/media/preview.png?raw=true)
 
-Font used: [Iosevka Nerd Font](https://www.programmingfonts.org/#iosevka) (13pt, Medium).
-
-Independently rendered images from [VS Code Themes](https://vscodethemes.com/e/shytikov.nollatta/nollatta) website:
-
-__Colorful variant__
-
-![JS Colorful](https://github.com/shytikov/nollatta/blob/main/media/js-syntax-colorful-preview.png?raw=true)
-
-__Monochrome variant__
-
-![JS Monochrome](https://github.com/shytikov/nollatta/blob/main/media/js-syntax-monochrome-preview.png?raw=true)
+Font used: [Iosevka Term SS08](https://github.com/be5invis/Iosevka) Medium / Extra Bold combination.
 
 Check for more language syntax previews on [VS Code Themes](https://vscodethemes.com/e/shytikov.nollatta/nollatta) website.
