@@ -25,7 +25,7 @@
 * Workbench colors are directly taken from  [Light Delight](https://github.com/DNonov/lightDelight);
 * Terminal colors are directly taken from [Nord Deep](https://github.com/marlosirapuan/vscode-theme-nord-deep);
 * Keywords in monochrome and bold came from [GitHub Light Monochrome](https://github.com/huytd/vscode-github-light-monochrome);
-* Majority of syntax highlighting colors are from [Android Code Search](https://cs.android.com/;
+* Majority of syntax highlighting colors are from [Android Code Search](https://cs.android.com/);
 * Monochrome variant `Blanche` is very much [Verdandi](https://github.com/be5invis/vsc-theme-verdandi/) color theme;
 
 ## Preview
