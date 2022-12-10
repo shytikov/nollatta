@@ -180,6 +180,7 @@
 				"keyword.operator.logical.python",
 				"keyword.operator.new",
 				"keyword",
+				"punctuation.separator.colon.python",
 				"storage.modifier",
 				"storage.type.function",
 				"storage.type",
@@ -273,7 +274,7 @@
 		{
 			"name": "Separator",
 			"scope": [
-				"punctuation.separator"
+				"punctuation.separator.key-value"
 			],
 			"settings": {
 				"fontStyle": "italic bold",

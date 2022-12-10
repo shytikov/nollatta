@@ -271,6 +271,7 @@
 				"keyword",
 				"meta.preprocessor.keyword",
 				"meta.property-value.keyword",
+				"punctuation.separator.colon.python",
 				"support.constant.property-value.keyword"
 			],
 			"settings": {
