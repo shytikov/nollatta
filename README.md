@@ -30,7 +30,7 @@
 
 ## Preview
 
-Sneak peek of syntax:
+Sneak peek of syntax (Golang):
 
 ![Nollåtta Preview](https://github.com/shytikov/nollatta/blob/main/media/preview.png?raw=true)
 
