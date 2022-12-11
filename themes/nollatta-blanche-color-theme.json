@@ -166,7 +166,7 @@
 				"meta.brace.round",
 				"meta.brace.square",
 				"meta.brace",
-				"meta.property-value punctuation.separator.key-value",
+				"meta.property-value",
 				"paren",
 				"punctuation.definition.metadata.md",
 				"punctuation.tag",
@@ -178,6 +178,16 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#858585"
+			}
+		},
+		{
+			"name": "Separator",
+			"scope": [
+				"punctuation.separator.key-value"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#222"
 			}
 		},
 		{

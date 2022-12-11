@@ -258,17 +258,8 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#222"
-			}
-		},
-		{
-			"name": "Object literal",
-			"scope": [
-				"meta.objectliteral"
-			],
-			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "",
+				"foreground": "#085"
 			}
 		},
 		{
@@ -277,7 +268,7 @@
 				"punctuation.separator.key-value"
 			],
 			"settings": {
-				"fontStyle": "italic bold",
+				"fontStyle": "bold",
 				"foreground": "#222"
 			}
 		},
