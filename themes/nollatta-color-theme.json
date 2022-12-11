@@ -191,6 +191,17 @@
 			}
 		},
 		{
+			"name": "Separator",
+			"scope": [
+				"punctuation.separator.key-value",
+				"punctuation.separator.dictionary"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#222"
+			}
+		},
+		{
 			"name": "Types",
 			"scope": [
 				"storage.type.annotation.groovy",
@@ -249,26 +260,6 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#222"
-			}
-		},
-		{
-			"name": "Object literal key",
-			"scope": [
-				"meta.object-literal.key"
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#085"
-			}
-		},
-		{
-			"name": "Separator",
-			"scope": [
-				"punctuation.separator.key-value"
-			],
-			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#222"
 			}
 		},
@@ -390,7 +381,7 @@
 				"meta.brace.round",
 				"meta.brace.square",
 				"meta.brace",
-				"meta.property-value punctuation.separator.key-value",
+				"meta.property-value",
 				"paren",
 				"punctuation.definition.metadata.md",
 				"punctuation.tag",
@@ -467,12 +458,13 @@
 		{
 			"name": "Property Names",
 			"scope": [
+				"meta.object-literal.key",
 				"meta.property-name",
-				"support.type.property-name",
-				"punctuation.support.type.property-name"
+				"punctuation.support.type.property-name",
+				"support.type.property-name"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "",
 				"foreground": "#333"
 			}
 		},
