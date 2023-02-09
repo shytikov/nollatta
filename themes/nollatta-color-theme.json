@@ -103,7 +103,7 @@
 		"terminal.ansiBrightRed": "#bf616a",
 		"terminal.ansiBrightWhite": "#eceff4",
 		"terminal.ansiBrightYellow": "#ebcb8b",
-		"terminal.background": "#2e3440",
+		"terminal.background": "#232731",
 		"terminal.foreground": "#d8dee9"
 	},
 	"tokenColors": [
