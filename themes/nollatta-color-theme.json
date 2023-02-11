@@ -368,35 +368,6 @@
 			}
 		},
 		{
-			"name": "Punctuation",
-			"scope": [
-				"brace",
-				"bracket",
-				"delimiter.tag",
-				"delimiter",
-				"keyword.operator.arithmetic",
-				"keyword.operator.assignment",
-				"keyword.operator.comparison",
-				"keyword.operator.relational",
-				"meta.arrow",
-				"meta.brace.round",
-				"meta.brace.square",
-				"meta.brace",
-				"meta.property-value",
-				"paren",
-				"punctuation.definition.metadata.md",
-				"punctuation.tag",
-				"punctuation",
-				"string.link.md",
-				"tag.html",
-				"tag.xml"
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#858585"
-			}
-		},
-		{
 			"name": "Embedded Source",
 			"scope": [
 				"string source",
