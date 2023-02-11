@@ -184,7 +184,7 @@
 				"punctuation.separator.colon.python",
 				"storage.modifier",
 				"storage.type.function",
-				"storage.type",
+				"storage.type"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -270,7 +270,7 @@
 				"entity.name.function",
 				"meta.function-call",
 				"punctuation.decorator",
-				"support.function",
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#708"
