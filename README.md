@@ -2,6 +2,8 @@
 
 [![GitHub package version](https://img.shields.io/github/package-json/v/shytikov/nollatta.svg)](./package.json) [![last-commit](https://img.shields.io/github/last-commit/shytikov/nollatta.svg)](./package.json) [![license](https://img.shields.io/github/license/shytikov/nollatta.svg)](./LICENSE) [![downloads](https://img.shields.io/visual-studio-marketplace/d/shytikov.nollatta.svg)](https://marketplace.visualstudio.com/items?itemName=shytikov.nollatta)
 
+> **N.B.** Blanché valiant was extracted to its' [own theme](https://marketplace.visualstudio.com/items?itemName=shytikov.blanche).
+
 ## Name
 
 `Nollåtta` (pronounced as _"noll-otta"_) means `08` in Swedish. This is rather ironic nickname for people from Stockholm, based on telephone code of the region. "Nollåttas" are very fancy and practical in the same time, also they combine these traits in somewhat ridiculous manner. Like this color theme 🤡
