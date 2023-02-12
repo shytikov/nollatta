@@ -3,12 +3,12 @@
 	"colors": {
 		"activityBar.background": "#ddd",
 		"activityBar.border": "#0003",
-		"activityBar.foreground": "#222",
+		"activityBar.foreground": "#232731",
 		"activityBarBadge.foreground": "#eee",
 		"badge.background": "#aaa",
 		"contrastBorder": "#0003",
 		"editor.background": "#fff",
-		"editor.foreground": "#222",
+		"editor.foreground": "#232731",
 		"editor.inactiveSelectionBackground": "#0003",
 		"editor.selectionBackground": "#e5e5e5",
 		"editor.selectionHighlightBackground": "#ea13",
@@ -23,7 +23,7 @@
 		"editorGutter.modifiedBackground": "#005faf",
 		"editorIndentGuide.activeBackground": "#0006",
 		"editorIndentGuide.background": "#0002",
-		"editorInfo.foreground": "#00437a",
+		"editorInfo.foreground": "#05a",
 		"editorLightBulb.foreground": "#cd9731",
 		"editorLightBulbAutoFix.foreground": "#cd9731",
 		"editorLineNumber.activeForeground": "#000",
@@ -35,21 +35,21 @@
 		"editorWidget.border": "#0003",
 		"input.placeholderForeground": "#aaa",
 		"list.activeSelectionBackground": "#ddd",
-		"list.activeSelectionForeground": "#222",
+		"list.activeSelectionForeground": "#232731",
 		"list.focusBackground": "#ddd",
 		"list.highlightForeground": "#005faf",
 		"list.hoverBackground": "#0001",
 		"list.inactiveSelectionBackground": "#ddd",
-		"list.inactiveSelectionForeground": "#222",
+		"list.inactiveSelectionForeground": "#232731",
 		"list.invalidItemForeground": "#b89500",
 		"notificationsErrorIcon.foreground": "#ff0000",
 		"notificationsInfoIcon.foreground": "#cd9731",
-		"notificationsWarningIcon.foreground": "#00437a",
+		"notificationsWarningIcon.foreground": "#05a",
 		"notificationToast.border": "#0003",
 		"panel.background": "#fff",
 		"peekViewEditor.background": "#eee",
 		"problemsErrorIcon.foreground": "#ff0000",
-		"problemsInfoIcon.foreground": "#00437a",
+		"problemsInfoIcon.foreground": "#05a",
 		"problemsWarningIcon.foreground": "#cd9731",
 		"quickInputList.focusBackground": "#0002",
 		"scrollbarSlider.background": "#0003",
@@ -63,19 +63,19 @@
 		"statusBar.foreground": "#555",
 		"statusBar.noFolderBackground": "#f9f9f9",
 		"symbolIcon.classForeground": "#708",
-		"symbolIcon.constructorForeground": "#00437a",
+		"symbolIcon.constructorForeground": "#05a",
 		"symbolIcon.enumeratorForeground": "#05a",
 		"symbolIcon.enumeratorMemberForeground": "#05a",
 		"symbolIcon.fieldForeground": "#05a",
-		"symbolIcon.functionForeground": "#00437a",
+		"symbolIcon.functionForeground": "#05a",
 		"symbolIcon.interfaceForeground": "#708",
-		"symbolIcon.keywordForeground": "#222",
-		"symbolIcon.methodForeground": "#00437a",
+		"symbolIcon.keywordForeground": "#232731",
+		"symbolIcon.methodForeground": "#05a",
 		"symbolIcon.moduleForeground": "#708",
 		"symbolIcon.namespaceForeground": "#708",
 		"symbolIcon.referenceForeground": "#05a",
-		"symbolIcon.snippetForeground": "#222",
-		"symbolIcon.unitForeground": "#222",
+		"symbolIcon.snippetForeground": "#232731",
+		"symbolIcon.unitForeground": "#232731",
 		"symbolIcon.variableForeground": "#05a",
 		"tab.activeBackground": "#fff",
 		"tab.activeForeground": "#333",
@@ -168,7 +168,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#222"
+				"foreground": "#232731"
 			}
 		},
 		{
@@ -188,7 +188,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#222"
+				"foreground": "#232731"
 			}
 		},
 		{
@@ -199,7 +199,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#222"
+				"foreground": "#232731"
 			}
 		},
 		{
@@ -261,7 +261,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#222"
+				"foreground": "#232731"
 			}
 		},
 		{
@@ -464,7 +464,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#222"
+				"foreground": "#232731"
 			}
 		},
 		{
@@ -475,7 +475,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#222"
+				"foreground": "#232731"
 			}
 		},
 		{
@@ -523,7 +523,7 @@
 				"punctuation.definition.directive.cpp"
 			],
 			"settings": {
-				"foreground": "#222",
+				"foreground": "#232731",
 				"fontStyle": "bold"
 			}
 		},
@@ -633,7 +633,7 @@
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#222"
+				"foreground": "#232731"
 			}
 		},
 		{
