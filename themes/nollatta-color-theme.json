@@ -115,24 +115,27 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#bbb"
+				"foreground": "#858585"
 			}
 		},
 		{
 			"name": "Comments: Preprocessor",
 			"scope": "comment.block.preprocessor",
 			"settings": {
-				"foreground": "#bbb"
+				"fontStyle": "italic",
+				"foreground": "#858585"
 			}
 		},
 		{
 			"name": "Comments: Documentation",
 			"scope": [
 				"comment.documentation",
-				"comment.block.documentation"
+				"comment.block.documentation",
+				"string.quoted.docstring"
 			],
 			"settings": {
-				"foreground": "#bbb"
+				"fontStyle": "italic",
+				"foreground": "#858585"
 			}
 		},
 		{
