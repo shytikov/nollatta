@@ -115,14 +115,14 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#858585"
+				"foreground": "#bbb"
 			}
 		},
 		{
 			"name": "Comments: Preprocessor",
 			"scope": "comment.block.preprocessor",
 			"settings": {
-				"foreground": "#858585"
+				"foreground": "#bbb"
 			}
 		},
 		{
@@ -132,7 +132,7 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#858585"
+				"foreground": "#bbb"
 			}
 		},
 		{
