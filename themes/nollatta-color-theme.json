@@ -674,21 +674,24 @@
 				"meta.separator"
 			],
 			"settings": {
-				"foreground": "#434343"
+				"fontStyle": "bold",
+				"foreground": "#232731"
 			}
 		},
 		{
 			"name": "Extra: Diff From",
 			"scope": "meta.diff.header.from-file",
 			"settings": {
-				"foreground": "#434343"
+				"fontStyle": "bold",
+				"foreground": "#232731"
 			}
 		},
 		{
 			"name": "Extra: Diff To",
 			"scope": "meta.diff.header.to-file",
 			"settings": {
-				"foreground": "#434343"
+				"fontStyle": "bold",
+				"foreground": "#232731"
 			}
 		},
 		{
@@ -698,7 +701,7 @@
 				"punctuation.definition.deleted"
 			],
 			"settings": {
-				"foreground": "#AA3731"
+				"foreground": "#800"
 			}
 		},
 		{
