@@ -84,7 +84,7 @@
 		"titleBar.activeBackground": "#ddd",
 		"titleBar.activeForeground": "#333",
 		"titleBar.border": "#0003",
-		"titleBar.inactiveBackground": "#f9f9f9",
+		"titleBar.inactiveBackground": "#eee",
 		"titleBar.inactiveForeground": "#bbb",
 		"widget.shadow": "#0003",
 		"terminal.ansiBlack": "#3b4252",
